@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "Hello this is java spring boot application done by jenkins session";
+        return "Hello finally we complete jenkins setup....";
     }
 }
