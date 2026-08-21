@@ -68,7 +68,6 @@
 				<version>0.8.13</version>
 
 				<executions>
-
 					<execution>
 						<id>prepare-agent</id>
 						<goals>
@@ -83,8 +82,14 @@
 							<goal>report</goal>
 						</goals>
 					</execution>
-
 				</executions>
+			</plugin>
+
+			<!-- SonarQube -->
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>5.5.0.6356</version>
 			</plugin>
 		</plugins>
 	</build>
